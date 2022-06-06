@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Form, Button } from "react-bootstrap";
+import { Container, Form, Button, Card, Col, Row} from "react-bootstrap";
+
 function Home() {
     return(
-      <div className="container">
-        <div className="mx-auto">Welcome!</div>
-      </div>
-
+      <Container>
+        <h1 className='text-center'>Homepage</h1>
+      </Container>
     );
 }
 export default Home

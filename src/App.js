@@ -7,7 +7,7 @@ import Register from './Components/Register';
 import Services from './Components/Services';
 import Pricing from './Components/Pricing';
 import About from './Components/About';
-
+import Profile from './Components/Profile';
 
 import {BrowserRouter as  Router, Routes , Route } from 'react-router-dom';
 
@@ -23,6 +23,8 @@ function App() {
         <Route path = "/pricing" element={<Pricing/>} />
         <Route path = "/services" element={<Services/>} />
         <Route path = "/about" element={<About/>} />
+        <Route path = "/profile" element={<Profile/>} />
+
       </Routes>
     </Router>
   );

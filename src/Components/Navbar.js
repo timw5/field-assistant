@@ -6,13 +6,11 @@ function navbar() {
 
 return(
     <>
-  <Navbar bg="dark" variant="dark">
+  <Navbar className="text-center w-100" bg="dark" variant="dark">
     <Navbar.Brand className='me-4' href="/">
       <img 
         className=" img-fluid border-0 rounded ms-4 mb-2 me-4" 
-        src={logo}
-        width="250"
-        height="30"
+        src="http://via.placeholder.com/250x100"
       />
       </Navbar.Brand>
     
@@ -22,7 +20,6 @@ return(
       <Nav.Link href="/pricing">Pricing</Nav.Link>
       <Nav.Link href="/about">About</Nav.Link>
       <Nav.Link href="/login">Login</Nav.Link>
-
     </Nav>
   </Navbar>
   <br></br>
